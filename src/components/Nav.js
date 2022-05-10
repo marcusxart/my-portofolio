@@ -23,7 +23,6 @@ const Nav = () => {
 };
 
 const NavStyled = styled.nav`
-  position: sticky;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -31,10 +30,11 @@ const NavStyled = styled.nav`
   min-height: 10vh;
   padding: 0 15px;
   .burger-menu {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: flex;
-    background: white;
+    padding: 3px 0;
+    border-radius: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -47,8 +47,8 @@ const NavList = styled.ul`
 `;
 
 const Line1 = styled.div`
-  height: 3px;
-  width: 35px;
+  height: 2.5px;
+  width: 30px;
   background: hsla(210, 29%, 24%, 0.3);
 `;
 
