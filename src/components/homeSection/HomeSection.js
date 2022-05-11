@@ -86,7 +86,7 @@ const HomeStyled = styled.section`
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  overflow-y: scroll;
+  margin-bottom: 10vh;
   position: relative;
 `;
 
@@ -98,13 +98,6 @@ const Svg = styled.div`
     position: absolute;
     left: -10px;
     right: -10px;
-    z-index: 1;
-  }
-  #svg-bottom {
-    bottom: -20px;
-    position: absolute;
-    left: 0;
-    right: -50px;
     z-index: 1;
   }
 `;

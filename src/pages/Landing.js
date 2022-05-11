@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header.";
 import HomeSection from "../components/homeSection/HomeSection";
+import AboutSection from "../components/aboutSection/AboutSection";
 import styled from "styled-components";
 
 const Landing = () => {
@@ -8,6 +9,7 @@ const Landing = () => {
     <LandingStyled>
       <Header />
       <HomeSection />
+      <AboutSection />
     </LandingStyled>
   );
 };
